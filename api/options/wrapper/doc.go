@@ -1,0 +1,30 @@
+// Copyright (c) 2022 Cisco Systems, Inc. and its affiliates
+// All rights reserved.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// Package wrapper contains options that will fine tune the behavior of
+// the API and some of the operations as well.
+//
+// For example, you may decide to change cache options or provide a region
+// for where to register the resources.
+//
+// Note that some of these options are actually *required* for some service
+// registries and ignored by others: please read the options listed in this
+// package for more details about each option and how to use it.
+//
+// To provide these options you can do:
+// 	core.NewServiceRegistryFromMyProvider(ctx, wrapper.WithMyOption())
+package wrapper
