@@ -1,0 +1,36 @@
+name: Test
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'api/*.go'
+  pull_request:
+    branches: [ main ]
+    types: [opened, edited, reopened, synchronize]
+    paths:
+      - 'api/*.go'
+
+jobs:
+  # Test api package
+  test:
+    name: Run tests
+    defaults:
+      run:
+        working-directory: ./api
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.18'
+          cache: true
+          cache-dependency-path: api/go.sum
+
+      - name: Checkout to repository
+        id: checkout-code
+        uses: actions/checkout@master
+
+      - name: Run tests
+        id: test-code
+        run: go test ./...
