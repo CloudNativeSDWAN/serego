@@ -55,14 +55,16 @@ var _ = Describe("Wrapper Options", func() {
 
 	It("sets correct region option", func() {
 		err := wrapper.WithRegion("my-region")(options)
-		Expect(err).To(Equal(&wrapper.Options{
+		Expect(err).NotTo(HaveOccurred())
+		Expect(options).To(Equal(&wrapper.Options{
 			Region: "my-region",
 		}))
 	})
 
 	It("sets correct project option", func() {
 		err := wrapper.WithProjectID("my-project")(options)
-		Expect(err).To(Equal(&wrapper.Options{
+		Expect(err).NotTo(HaveOccurred())
+		Expect(options).To(Equal(&wrapper.Options{
 			ProjectID: "my-project",
 		}))
 	})
