@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: "gomod"
+    directory: "/api" # Location of package manifests
+    schedule:
+      interval: "daily"
+    assignees:
+      - "asimpleidea"
+    commit-message:
+      prefix: "⬆️ "
+      include: "scope"
+    reviewers:
+      - "asimpleidea"
+      - "arnatal"
+      - "ljakab"
+    labels:
+      - "dependencies"
+    ignore:
+      # AWS has a *very* active pipeline for releasing patch updates,
+      # we are choosing to ignore them because otherwise we would be
+      # constantly bombarded with PRs every single day.
+      - dependency-name: "github.com/aws"
+        update-types: ["version-update:semver-patch"]
