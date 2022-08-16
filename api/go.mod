@@ -59,3 +59,5 @@ require (
 	honnef.co/go/tools v0.0.1-2020.1.4 // indirect
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9 // indirect
 )
+
+replace github.com/CloudNativeSDWAN/serego => ../
