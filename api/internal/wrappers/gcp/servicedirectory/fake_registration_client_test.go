@@ -21,7 +21,7 @@ import (
 	"context"
 
 	sd "cloud.google.com/go/servicedirectory/apiv1"
-	gax "github.com/googleapis/gax-go"
+	"github.com/googleapis/gax-go/v2"
 	pb "google.golang.org/genproto/googleapis/cloud/servicedirectory/v1"
 	iampb "google.golang.org/genproto/googleapis/iam/v1"
 )

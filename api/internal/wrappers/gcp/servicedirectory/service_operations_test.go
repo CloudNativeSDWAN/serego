@@ -23,7 +23,7 @@ import (
 	"path"
 	"time"
 
-	gax "github.com/googleapis/gax-go"
+	"github.com/googleapis/gax-go/v2"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"google.golang.org/api/iterator"

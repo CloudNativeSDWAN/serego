@@ -29,7 +29,7 @@ import (
 	"github.com/CloudNativeSDWAN/serego/api/options/get"
 	"github.com/CloudNativeSDWAN/serego/api/options/list"
 	"github.com/CloudNativeSDWAN/serego/api/options/wrapper"
-	gax "github.com/googleapis/gax-go"
+	"github.com/googleapis/gax-go/v2"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"google.golang.org/api/iterator"
