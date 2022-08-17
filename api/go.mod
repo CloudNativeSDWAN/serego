@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go/servicedirectory v1.3.0
 	github.com/aws/aws-sdk-go-v2 v1.16.11
 	github.com/aws/aws-sdk-go-v2/config v1.17.1
-	github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.17.8
+	github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.17.13
 	github.com/googleapis/gax-go/v2 v2.4.0
 	github.com/onsi/ginkgo/v2 v2.1.4
 	github.com/onsi/gomega v1.20.0
