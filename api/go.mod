@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	cloud.google.com/go/servicedirectory v1.5.0
-	github.com/aws/aws-sdk-go-v2 v1.16.16
+	github.com/aws/aws-sdk-go-v2 v1.17.0
 	github.com/aws/aws-sdk-go-v2/config v1.17.8
 	github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.18.0
 	github.com/googleapis/gax-go/v2 v2.6.0
