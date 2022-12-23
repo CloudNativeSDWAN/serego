@@ -11,7 +11,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.6.1
 	github.com/onsi/gomega v1.24.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	go.etcd.io/etcd/api/v3 v3.5.5
+	go.etcd.io/etcd/api/v3 v3.5.6
 	go.etcd.io/etcd/client/v3 v3.5.5
 	google.golang.org/api v0.102.0
 	google.golang.org/genproto v0.0.0-20221027153422-115e99e71e1c
