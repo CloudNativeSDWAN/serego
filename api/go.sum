@@ -26,8 +26,8 @@ github.com/aws/aws-sdk-go-v2/internal/ini v1.3.31 h1:hf+Vhp5WtTdcSdE+yEcUz8L73sA
 github.com/aws/aws-sdk-go-v2/internal/ini v1.3.31/go.mod h1:5zUjguZfG5qjhG9/wqmuyHRyUftl2B5Cp6NNxNC6kRA=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.24 h1:c5qGfdbCHav6viBwiyDns3OXqhqAbGjfIB4uVu2ayhk=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.24/go.mod h1:HMA4FZG6fyib+NDo5bpIxX1EhYjrAOveZJY2YR0xrNE=
-github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.20.1 h1:Xb1SaFXY/OUBDoEFxJ5BfPWB+jUZtGQasN2/wQ0iITs=
-github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.20.1/go.mod h1:kXRUSok2dElGBpwEsTiKl4BVKao/WUfVGj6XSX/I5ko=
+github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.20.2 h1:6i0LMD0+0mSyIQsJO1KbmXeO1Qgn1wbohbECSh+gJzA=
+github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.20.2/go.mod h1:kXRUSok2dElGBpwEsTiKl4BVKao/WUfVGj6XSX/I5ko=
 github.com/aws/aws-sdk-go-v2/service/sso v1.12.5 h1:bdKIX6SVF3nc3xJFw6Nf0igzS6Ff/louGq8Z6VP/3Hs=
 github.com/aws/aws-sdk-go-v2/service/sso v1.12.5/go.mod h1:vuWiaDB30M/QTC+lI3Wj6S/zb7tpUK2MSYgy3Guh2L0=
 github.com/aws/aws-sdk-go-v2/service/ssooidc v1.14.5 h1:xLPZMyuZ4GuqRCIec/zWuIhRFPXh2UOJdLXBSi64ZWQ=
